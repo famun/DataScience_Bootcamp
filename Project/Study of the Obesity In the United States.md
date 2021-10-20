@@ -25,3 +25,9 @@ it contains more than what we need, our goal is to look into the education and i
 - seaborn for visualization
 - sklearn to train the model for the education and income cases
 # Commmunication
+Other than the PowerPoint presentation that could be find alongside this porject, multiple visualization attempted to make the project as easy as possible for interpretation,
+the results were: 
+- 1 graph that shows all 51 states from most obese to least obese for a chosen year 
+- 4 graphs that shows the obesity rate depedning on the education level breakdown. 
+- 1 graph that shows the obesity rate depending on the income level
+- 2 graphs that shows the linear regression coeffecient for the education level and income level which helps us in understanding possible solutions.
