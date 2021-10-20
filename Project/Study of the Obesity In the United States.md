@@ -18,6 +18,23 @@ such as the year that the study was conducted, the location abbreviated and spel
 information regarding the income levels, education levels, gender and Race/Ethnicity. we will not be using all the features because 
 it contains more than what we need, our goal is to look into the education and income connection to the obesity only.
 # Algorithms
+Other than the tools used for data cleaning and analysis of the dataset. A linear regression model is developed to show how the regression coffecients chagnes depending on 
+the different levels of the sociecononmics. the regression coffecient shows us which of the levels has the least amount of risk to obesity, for the year 2015 since it had 
+the most data samples, the education levles regression coffecients were found to be:
+- 4.3 for less than highschool education
+- 3.6 for highschool education
+- 3.1 for some college or technical school education
+- R^2 to show how much of the linear model it corralate to yeilded: 48% which is considered good for a new study
+
+which leads us to determine that as ones gain more education then their risk of obesity decreases. As for the income levels it was found:
+- $15,000 − $24,999 : -1.8
+- $25,000 − $34,999 : -3.8
+- $35,000 − $49,999 : -4
+- $50,000 − $74,999	: -4.2
+- $75,000 or greater : -8.5
+- R^2 to show how much of the linear model it corralate to yeilded: 29% which is considered acceptable for a new study
+
+which leads us to determine that as ones gain more income then their risk of obesity decreases, however keeping in mind thaat the place of living might affect this as well.
 # Tools
 - numpy to manipulate numbers
 - pandas to edit tables and merge
